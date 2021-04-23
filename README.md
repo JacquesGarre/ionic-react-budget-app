@@ -11,7 +11,7 @@
 
  - Then : 
 	 - npm install -g @ionic/cli
-	 - git clone https://github.com/JacquesGarre/budgetApp.git
+	 - git clone https://github.com/JacquesGarre/ionic-react-budget-app.git
 	 - cd budgetApp
 	 - npm install
 
