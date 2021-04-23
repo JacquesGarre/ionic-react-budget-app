@@ -19,7 +19,7 @@
 	 - ionic serve
 
  - To build and run on your mobile phone : 
-	 - Cf https://ionicframework.com/docs/react/your-first-app/6-deploying-mobile
+	 - https://ionicframework.com/docs/react/your-first-app/6-deploying-mobile
 
 
 # How to use
