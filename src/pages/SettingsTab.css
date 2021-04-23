@@ -1,0 +1,86 @@
+.settings-page .category-title {
+    font-size: 18px;
+    margin-left: 10px;
+    font-family: 'Fjalla';
+    text-align: center;
+}
+
+.settings-page .month-btn {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.settings-page .month-btn ion-icon {
+    margin-right: 15px;
+}
+
+.settings-page ion-item-group {
+    margin-top: 30px;
+    color: var(--ion-color-dark);
+}
+
+.settings-page ion-label[slot="end"] {
+    text-align: right;
+}
+
+.settings-page .summary-list {
+    box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%), 0 1px 18px 0 rgb(0 0 0 / 12%);
+}
+
+.settings-page ion-content {
+    --background: var(--ion-color-light-tint);
+}
+
+.incomes-list {
+    box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%), 0 1px 18px 0 rgb(0 0 0 / 12%);
+}
+
+.incomes-list .total {
+    font-size: 20px;
+}
+
+.incomes-list ion-item-sliding ion-item {
+    --min-height: 40px;
+}
+
+.new-income-form {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.new-income-form ion-button {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.expenses-list ion-fab-button {
+    --background: var(--ion-color-danger);
+}
+
+.expenses-list {
+    box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%), 0 1px 18px 0 rgb(0 0 0 / 12%);
+}
+
+.expenses-list .total {
+    font-size: 20px;
+}
+
+.expenses-list ion-item-sliding ion-item {
+    --min-height: 40px;
+}
+
+.new-expense-form {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.new-expense-form ion-button {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.expenses-list .removed, .incomes-list .removed {
+    display:none;
+}
+

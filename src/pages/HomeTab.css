@@ -1,0 +1,136 @@
+.home-page table.dates {
+    width: 100%;
+}
+
+.home-page table.dates td:nth-of-type(2) {
+    text-align: center;
+}
+
+.home-page table.dates td:nth-of-type(3) {
+    text-align: right;
+}
+
+.home-page .weekly-doughnut canvas {
+    margin-bottom: 20px;
+}
+
+.home-page .weekly-budget, .home-page .weekly-budget-details {
+    width: 100%;
+}
+
+.home-page .weekly-budget tr td:nth-of-type(2) {
+    text-align: right;
+}
+
+.home-page .this-week ion-card-header {
+    padding-bottom: 0px;
+}
+
+.home-page .weekly-budget-details {
+    margin-top: 5px;
+    border-top: 1px solid var(--ion-item-border-color, var(--ion-border-color, var(--ion-color-step-150, rgba(0, 0, 0, 0.13))));
+}
+
+.home-page ion-fab-button {
+    --background: var(--ion-color-danger);
+}
+
+.home-page .remaining-total td {
+    font-size: 30px;
+    color: var(--ion-color-success);
+}
+
+.home-page .remaining-total-danger td {
+    font-size: 30px;
+    color: var(--ion-color-danger);
+}
+
+.home-page .category-details ion-item {
+    --min-height: 30px;
+}
+
+.home-page .category-details ion-card-title {
+    font-size: 18px;
+}
+
+.home-page .category-details ion-card-header {
+    padding-bottom: 5px;
+}
+.home-page .category-details ion-card-content {
+    padding-left: 0;
+}
+
+.home-page .category-details {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.home-page .expense-item ion-item {
+    font-size: 14px;
+    color: var(--ion-color-dark);
+}
+
+.home-page .expense-item .expense-amount {
+    float: right;
+}
+
+.home-page .hide {
+    display:none;
+}
+
+ion-slides {
+    height: 100%;
+}
+
+ion-fab-button.unscrolled {
+    width: 130px;
+    --border-radius: 30px;
+    font-size: 15px;
+}
+
+#welcome ion-icon {
+    position: absolute;
+    bottom: 70px;
+    color: #fff;
+    right: calc(50vw - 16px);
+    animation-duration: 0.5s;
+    animation-name: bounce;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes bounce {
+    from {
+        bottom: 200px;
+    }
+    to {
+        bottom: 180px;
+    }
+}
+
+#welcome p {
+    position: absolute;
+    bottom: 240px;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+}
+
+#welcome h1 {
+    margin-top: 38vh;
+    color: #fff;
+    text-align: center;
+}
+
+
+.weekly-budget tr td:nth-of-type(1) {
+    text-align: left;
+}
+
+ion-content {
+    --background: var(--ion-color-dark-tint);
+}
+
+ion-card {
+    border-radius: 15px;
+}

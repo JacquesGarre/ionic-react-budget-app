@@ -1,0 +1,38 @@
+@font-face {   
+    font-family: 'Fjalla';
+    src: url('./fonts/FjallaOne-Regular.ttf');
+}
+@font-face {   
+    font-family: 'Rajda';
+    src: url('./fonts/Rajdhani-Regular.ttf');
+}
+@font-face {   
+    font-family: 'Rajda-bold';
+    src: url('./fonts/Rajdhani-Bold.ttf');
+}
+@font-face {   
+    font-family: 'Rajda-light';
+    src: url('./fonts/Rajdhani-Light.ttf');
+}
+@font-face {   
+    font-family: 'Rajda-medium';
+    src: url('./fonts/Rajdhani-Medium.ttf');
+}
+
+:root {
+    --ion-font-family: 'Rajda-bold';
+    --color: var(--ion-color-dark);
+}
+
+ion-toolbar ion-title {
+    text-align: center;
+    font-family: 'Fjalla';
+}
+
+.success {
+    color: var(--ion-color-success);
+}
+
+.danger {
+    color: var(--ion-color-danger);
+}
