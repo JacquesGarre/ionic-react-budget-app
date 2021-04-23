@@ -1,4 +1,8 @@
 
+# About
+ - Mobile app to manage monthly/weekly budget
+ - Developed during free-time as an experiment with Ionic/React
+
 # How to install
  - Check for node, npm and git :
 	 - node --version
